@@ -8,24 +8,24 @@ createTable.style.fontSize = "25px"
 let sno = document.createElement("th")
 createTable.appendChild(sno)
 sno.innerText = "S. No"
-sno.style="color:blue;"
+sno.style="color:black;"
 let UserName = document.createElement("th")
 createTable.appendChild(UserName)
 UserName.innerText = "Username"
-UserName.style="color:blue;"
+UserName.style="color:black;"
 let city = document.createElement("th")
 createTable.appendChild(city)
 city.innerText = "City"
-city.style="color:blue;"
+city.style="color:orange;"
 let state = document.createElement("th")
 createTable.appendChild(state)
 state.innerText = "State"
-state.style="color:blue;"
+state.style="color:green;"
 
 let sno_arr=[1,2,3,4,5];
-let UserName_arr = ["UserName 1","userName 2","userName3","userName4","userName5"];
-let city_arr = ["HYD","VSKP","VZM","SKML","RJY"];
-let state_arr = ["Telangana","Andhra","Andhra","Andhra","Andhra"];
+let UserName_arr = ["UserName 1","UserName 2","UserName3","UserName4","UserName5"];
+let city_arr = ["HYDERABAD","WARANGAL","VIZAG","KURNOOL","CHITTORE"];
+let state_arr = ["Telangana","Telangana","Andhra","Andhra","Andhra"];
 
 
 for(i = 0;i<sno_arr.length;i++){
